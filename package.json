@@ -1,0 +1,12 @@
+{
+  "name": "backend-to-do",
+  "version": "1.0.0",
+  "description": "To-Do: Backend para gestionar tareas personales y con amigos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
