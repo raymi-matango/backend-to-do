@@ -5,7 +5,7 @@ import admin from 'firebase-admin';
 const loadJSON = (path) => JSON.parse(fs.readFileSync(new URL(path, import.meta.url)));
 
 // Cargar el archivo JSON con las credenciales de Firebase
-const servicioFirebase = loadJSON('./firebaseKey.json');
+const servicioFirebase = loadJSON('/etc/secrets/firebaseKey.json');
 
 // Inicializar Firebase con las credenciales de la cuenta de servicio
 admin.initializeApp({
