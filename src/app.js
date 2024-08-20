@@ -23,8 +23,6 @@ app.use('/api/tareas', tareasRouter); // Rutas para manejo de tareas
 app.use('/api/compartidos', compartidosRouter); // Rutas para manejo de tareas compartidos
 
 
-
-
-
-
 export default app;
+
+//V1: Desplegar en Render
